@@ -25,18 +25,15 @@ cout<<n<<endl;
 }
 }
 bool forloop(int n)
-
 {
-    
-
-  
-    for(int i=2; i<=n/2; i++)
-  {
-       if(n%i == 0)
-      {
+ for (int i = 2; i < n; i++)
+ {
+    if(n%i==0)
+    {
         return false;
-      }
-}
+    }
+ }
+ 
 }
 void whileloop(int n)
 {
@@ -64,20 +61,22 @@ while(true)
 }
 }
 
+void forl(int n)
+{
+for (int i=1; i<=n; i++)
+ {
+    if (forloop(i))
+    { 
+       cout<<"The prime number are::"<<i<<endl;
+    }
+}
+}
+
+
 int main()
 {
 int n;
 cout<<"Enter the number n:"<<endl;
-//forloop(10);
-//whileloop(100);
-for (int i=1;i<=100;i++)
-{
-
-    if(forloop(i))
-    {
-        cout<<"prime number are::"<<i<<endl;
-    }
+cin>>n;
+forl(n);
 }
-return 0;
-}
-
