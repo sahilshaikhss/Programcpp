@@ -56,12 +56,8 @@ cout<< s + s2<<endl;
 s.append(s2);
 cout<<s<<endl;
 
-
-
-
-
 }
-
+}
 
 
 
