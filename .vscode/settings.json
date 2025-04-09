@@ -59,7 +59,8 @@
   "java.dependency.syncWithFolderExplorer": false,
   "files.associations": {
     "initializer_list": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "ostream": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
