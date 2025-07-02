@@ -23,7 +23,7 @@ public:
 
     }
 };
-class C:public virtual A //bt using virtual the class C and B have only one copy of class A
+class C:public virtual A //by using virtual the class C and B have only one copy of class A. we use bz of to save space and no ambiguity.
 {
 
      public:
@@ -45,7 +45,7 @@ class D: public B ,public C
    /*
     void sample()
     {
-        B::show();// scope resolution operator
+        B::show();//  ( :: ) scope resolution operator
         C::show();
         cout<< B::a<<endl;
         cout<< C::a<<endl;
