@@ -43,5 +43,6 @@ ex int *ptr,char *str;
    return 0;
 
   } 
+  
 
   
